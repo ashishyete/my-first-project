@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
-    "heroku-postbuild": "npm install --prefix ./client"
+    "heroku-prebuild": "npm install --dev",
+  "heroku-postbuild": "npm run prod"
   },
   "private": true,
   "dependencies": {
