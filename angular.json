@@ -119,8 +119,8 @@
             "devServerTarget": "my-first-project:serve"
           },
           "configurations": {
-            "production": {
-              "devServerTarget": "my-first-project:serve:production"
+            "development": {
+              "devServerTarget": "my-first-project:serve:development"
             }
           }
         }
