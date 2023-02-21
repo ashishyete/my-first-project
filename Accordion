@@ -78,3 +78,36 @@ css
   flex: 1;
 }
 
+sections
+
+const sections = [
+  {
+    title: "Section 1",
+    date: "Jan 1, 2022",
+    image: "https://via.placeholder.com/200",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra orci ut turpis tincidunt laoreet. Sed euismod libero eget justo pulvinar congue. Donec eget consequat nulla. Cras vel lacus in nibh commodo volutpat. Sed commodo massa et semper fringilla. Praesent pulvinar felis et metus tristique rhoncus. Aliquam erat volutpat. Vivamus non urna quis nisi blandit ullamcorper. Integer eget luctus augue, id consectetur orci."
+  },
+  {
+    title: "Section 2",
+    date: "Feb 15, 2022",
+    image: "https://via.placeholder.com/200",
+    content:
+      "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae felis eget nisi pharetra gravida. Duis elementum turpis eget augue finibus hendrerit. Aliquam eu lectus purus. Duis vel erat vestibulum, dapibus velit at, suscipit nisl. Sed in nunc ac turpis dignissim bibendum. Nam ut ligula ex. Sed fringilla tortor vel mauris pretium sagittis. Sed efficitur convallis mauris, vel rutrum neque iaculis ac. Donec lobortis elementum nulla, vel tempor nibh auctor quis."
+  },
+  {
+    title: "Section 3",
+    date: "Mar 20, 2022",
+    image: "https://via.placeholder.com/200",
+    content:
+      "Suspendisse ut est lectus. Donec laoreet ipsum a eros lacinia, a dignissim massa commodo. Nunc dignissim risus justo, vel dignissim nisi finibus sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In quis nulla a elit fermentum blandit. Sed sodales pretium diam, vitae lacinia nisi pellentesque in. Donec lacinia leo eget ex pretium hendrerit. Aliquam erat volutpat. Proin eget eleifend neque, a fringilla justo. Nulla congue ex id commodo euismod."
+  }
+];
+You can pass this sections array as a prop to the Accordion component like so:
+
+jsx
+Copy code
+<Accordion sections={sections} />
+
+
+
